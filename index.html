@@ -1,0 +1,830 @@
+<!doctype html>
+<html lang="ro">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Colegiul Național „Octav Onicescu”</title>
+		<link rel="icon" type="image/png" href="assets/stema150x150.png"/>
+		<link rel="stylesheet" href="style.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+	</head>
+
+	<body>
+		<nav class="navbar" id="navbar">
+			<div class="nav-container">
+				<a href="#acasa" class="logo">
+					<img src="assets/stema150x150.png" alt="Stema Colegiului Național Octav Onicescu" class="logo-img" />
+					<span>„Octav Onicescu”</span>
+				</a>
+				<button class="nav-toggle" id="navToggle" aria-label="Meniu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<ul class="nav-menu" id="navMenu">
+					<li><a href="#acasa" class="nav-link active">Acasă</a></li>
+					<li><a href="#despre" class="nav-link">Despre Noi</a></li>
+					<li>
+						<a href="#personalitate" class="nav-link">Personalitate</a>
+					</li>
+					<li><a href="#traditii" class="nav-link">Tradiții</a></li>
+					<li>
+						<a href="#oferta" class="nav-link">Ofertă Educațională</a>
+					</li>
+					<li><a href="#galerie" class="nav-link">Galerie</a></li>
+					<li><a href="#contact" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<section id="acasa" class="hero">
+			<div class="hero-overlay"></div>
+			<div class="hero-particles" id="particles"></div>
+			<div class="hero-content">
+				<div class="hero-badge">
+					<i class="fas fa-landmark"></i>
+					<span>Proiect Educațional 2026</span>
+				</div>
+				<h1 class="hero-title">
+					<span class="title-line">Rădăcini Străbune</span>
+					<span class="title-accent">în Contextul Multiculturalității</span>
+				</h1>
+				<p class="hero-subtitle">Colegiul Național „Octav Onicescu" — tradiție, excelență și inovație din 1929</p>
+				<div class="hero-cta">
+					<a href="#despre" class="btn btn-primary">
+						<span>Aflați Mai Multe</span>
+						<i class="fas fa-arrow-right"></i>
+					</a>
+					<a href="#galerie" class="btn btn-secondary">
+						<i class="fas fa-images"></i>
+						<span>Galerie Foto</span>
+					</a>
+				</div>
+				<div class="hero-stats">
+					<div class="stat-item">
+						<span class="stat-number" data-target="1929">0</span>
+						<span class="stat-label">Anul Fondării</span>
+					</div>
+					<div class="stat-item">
+						<span class="stat-number" data-target="869">0</span>
+						<span class="stat-label">Elevi</span>
+					</div>
+					<div class="stat-item">
+						<span class="stat-number" data-target="97">0</span>
+						<span class="stat-label">% Promovabilitate bacalaureat</span>
+					</div>
+				</div>
+			</div>
+			<a href="#despre" class="scroll-indicator">
+				<span>Aflați mai multe</span>
+				<i class="fas fa-chevron-down"></i>
+			</a>
+		</section>
+
+		<section id="despre" class="section section-light">
+			<div class="container">
+				<div class="section-header">
+					<span class="section-tag">Despre Noi</span>
+					<h2 class="section-title">Colegiul Național „Octav Onicescu"</h2>
+					<p class="section-subtitle">Excelență în educație din 1929</p>
+				</div>
+
+				<div class="accreditations-grid">
+					<div class="accreditation-card" data-aos="fade-up">
+						<div class="accred-icon">
+							<i class="fas fa-globe-europe"></i>
+						</div>
+						<h4>Școală Europeană</h4>
+						<p>2012-2015, 2015-2018, 2022-2025</p>
+					</div>
+					<div class="accreditation-card" data-aos="fade-up" data-aos-delay="100">
+						<div class="accred-icon">
+							<i class="fas fa-landmark"></i>
+						</div>
+						<h4>Școală-Ambasador</h4>
+						<p>Parlamentul European</p>
+					</div>
+					<div class="accreditation-card" data-aos="fade-up" data-aos-delay="200">
+						<div class="accred-icon">
+							<i class="fas fa-plane"></i>
+						</div>
+						<h4>Acreditare Erasmus+</h4>
+						<p>Educație Școlară</p>
+					</div>
+					<div class="accreditation-card" data-aos="fade-up" data-aos-delay="300">
+						<div class="accred-icon">
+							<i class="fas fa-book"></i>
+						</div>
+						<h4>UNESCO</h4>
+						<p>Școală Asociată</p>
+					</div>
+					<div class="accreditation-card" data-aos="fade-up" data-aos-delay="400">
+						<div class="accred-icon">
+							<i class="fas fa-database"></i>
+						</div>
+						<h4>Oracle Academy</h4>
+						<p>Membru</p>
+					</div>
+				</div>
+
+				<div class="timeline">
+					<div class="timeline-item" data-aos="fade-right">
+						<div class="timeline-marker">
+							<i class="fas fa-flag"></i>
+						</div>
+						<div class="timeline-content">
+							<span class="timeline-date">1929-1957</span>
+							<h3>Școala Generală nr. 102</h3>
+							<p>Instituția funcționează inițial ca școală generală, sub denumirea Școala Generală nr. 102.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item" data-aos="fade-left">
+						<div class="timeline-marker">
+							<i class="fas fa-book-reader"></i>
+						</div>
+						<div class="timeline-content">
+							<span class="timeline-date">1957-1970</span>
+							<h3>Liceul Real-Umanist nr. 8</h3>
+							<p>Școala își continuă dezvoltarea sub profil real-umanist, consolidând baza academică a elevilor.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item" data-aos="fade-right">
+						<div class="timeline-marker">
+							<i class="fas fa-school"></i>
+						</div>
+						<div class="timeline-content">
+							<span class="timeline-date">1970-1976</span>
+							<h3>Liceul Teoretic nr. 30</h3>
+							<p>Instituția funcționează ca liceu teoretic, cu accent pe formarea elevilor pentru continuarea studiilor.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item" data-aos="fade-left">
+						<div class="timeline-marker">
+							<i class="fas fa-industry"></i>
+						</div>
+						<div class="timeline-content">
+							<span class="timeline-date">1976-1989</span>
+							<h3>Liceul Industrial nr. 27</h3>
+							<p>În această etapă, liceul capătă profil industrial și își extinde baza materială și numărul de clase.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item" data-aos="fade-right">
+						<div class="timeline-marker">
+							<i class="fas fa-cogs"></i>
+						</div>
+						<div class="timeline-content">
+							<span class="timeline-date">1989-1993</span>
+							<h3>Grup Școlar Industrial IMUC</h3>
+							<p>După 1989, instituția funcționează sub titulatura de Grup Școlar Industrial IMUC.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item" data-aos="fade-left">
+						<div class="timeline-marker">
+							<i class="fas fa-signature"></i>
+						</div>
+						<div class="timeline-content">
+							<span class="timeline-date">1993-2005</span>
+							<h3>Grup Școlar Industrial „Octav Onicescu”</h3>
+							<p>Din 1993 până în 2005, unitatea a funcționat sub titulatura de Grup Școlar Industrial „Octav Onicescu”.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item" data-aos="fade-right">
+						<div class="timeline-marker">
+							<i class="fas fa-landmark"></i>
+						</div>
+						<div class="timeline-content">
+							<span class="timeline-date">1 ianuarie 2006</span>
+							<h3>Colegiul Național „Octav Onicescu”</h3>
+							<p>Începând cu 1 ianuarie 2006, instituția primește statutul de Colegiu Național „Octav Onicescu”.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item" data-aos="fade-left">
+						<div class="timeline-marker">
+							<i class="fas fa-building"></i>
+						</div>
+						<div class="timeline-content">
+							<span class="timeline-date">2020</span>
+							<h3>Modernizarea Clădirii</h3>
+							<p>Colegiul beneficiază de o clădire modernă, mobilier nou, dotare cu Internet și echipamente IT, sistem audio-video centralizat și videoproiectoare în toate spațiile de învățare.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item" data-aos="fade-right">
+						<div class="timeline-marker">
+							<i class="fas fa-running"></i>
+						</div>
+						<div class="timeline-content">
+							<span class="timeline-date">2024</span>
+							<h3>Baza Sportivă Nouă</h3>
+							<p>Se finalizează reabilitarea și modernizarea bazei sportive, cu o sală de sport complet echipată și două terenuri reamenajate.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item" data-aos="fade-left">
+						<div class="timeline-marker">
+							<i class="fas fa-rocket"></i>
+						</div>
+						<div class="timeline-content">
+							<span class="timeline-date">2025-2026</span>
+							<h3>Prezent</h3>
+							<p>Astăzi, colegiul numără 869 de elevi în 30 de clase, cu 57 de cadre didactice calificate. Instituția dispune de 18 săli de curs, 13 laboratoare și cabinete, precum și o bibliotecă modernă.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="key-figures">
+					<h3 class="figures-title"><i class="fas fa-chart-bar"></i> Colegiul în Cifre</h3>
+					<div class="figures-grid">
+						<div class="figure-card">
+							<span class="figure-number">869</span>
+							<span class="figure-label">Elevi</span>
+						</div>
+						<div class="figure-card">
+							<span class="figure-number">30</span>
+							<span class="figure-label">Clase</span>
+						</div>
+						<div class="figure-card">
+							<span class="figure-number">57</span>
+							<span class="figure-label">Cadre Didactice</span>
+						</div>
+						<div class="figure-card">
+							<span class="figure-number">97,7%</span>
+							<span class="figure-label">Promovabilitate bacalaureat</span>
+						</div>
+						<div class="figure-card">
+							<span class="figure-number">18</span>
+							<span class="figure-label">Săli de Curs</span>
+						</div>
+						<div class="figure-card">
+							<span class="figure-number">13</span>
+							<span class="figure-label">Laboratoare</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="personalitate" class="section section-dark">
+			<div class="container">
+				<div class="personalitate-grid">
+					<div class="personalitate-image" data-aos="fade-right">
+						<div class="image-frame">
+							<img src="assets/octav_onicescu.jpg" alt="Octav Onicescu" class="personalitate-photo" />
+						</div>
+						<div class="personalitate-awards">
+							<div class="award">
+								<i class="fas fa-medal"></i>
+								<span>Membru al Academiei Române</span>
+							</div>
+							<div class="award">
+								<i class="fas fa-award"></i>
+								<span>Premiul de Stat</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="personalitate-info" data-aos="fade-left">
+						<span class="section-tag">Moștenire Științifică</span>
+						<h2 class="section-title">Octav Onicescu</h2>
+						<p class="personalitate-subtitle">Fondatorul Școlii Românești de Probabilități</p>
+
+						<div class="personalitate-bio">
+							<p><strong>Octav Onicescu</strong> (20 august 1892, Botoșani – 19 august 1983, București) a fost unul dintre cei mai mari matematicieni români, fondator al școlii românești de teoria probabilităților și statistică matematică.</p>
+
+							<p>
+								A studiat la Universitatea din București și apoi la Roma, sub îndrumarea lui Tullio Levi-Civita. A introdus conceptul de
+								<em>energie informațională</em>, o alternativă la entropia lui Shannon.
+							</p>
+						</div>
+
+						<div class="personalitate-achievements">
+							<h4>Contribuții Fundamentale</h4>
+							<ul class="achievement-list">
+								<li>
+									<i class="fas fa-check-circle"></i>
+									<span>Teoria lanțurilor Markov</span>
+								</li>
+								<li>
+									<i class="fas fa-check-circle"></i>
+									<span>Energia informațională (Entropia Onicescu)</span>
+								</li>
+								<li>
+									<i class="fas fa-check-circle"></i>
+									<span>Mecanica invariantivă</span>
+								</li>
+								<li>
+									<i class="fas fa-check-circle"></i>
+									<span>Peste 200 de lucrări științifice</span>
+								</li>
+							</ul>
+						</div>
+
+						<blockquote class="personalitate-quote">
+							<i class="fas fa-quote-left"></i>
+							<p>„Creația închide ceva din absolutul rece al existenței, așa încât legea viitorului, deci și a tinerilor de astăzi, are următorul enunț: veți crea, veți avea; nu veți crea, nu veți fi!"</p>
+							<cite>— Octav Onicescu</cite>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="traditii" class="section section-light">
+			<div class="container">
+				<div class="section-header">
+					<span class="section-tag">Moștenire Culturală</span>
+					<h2 class="section-title">Tradiții ale Colegiului</h2>
+					<p class="section-subtitle">Valori transmise din generație în generație</p>
+				</div>
+
+				<div class="traditions-grid">
+					<div class="tradition-card" data-aos="zoom-in" data-aos-delay="100">
+						<div class="tradition-icon">
+							<i class="fas fa-book"></i>
+						</div>
+						<h3>Olimpiadele Școlare</h3>
+						<p>Urmând tradițiile Colegiului, elevii participă activ la olimpiade la mai multe discipline, cum ar fi limba română, matematica și informatica, obținând rezultate remarcabile la nivel municipal și național.</p>
+						<div class="tradition-pattern"></div>
+					</div>
+
+					<div class="tradition-card" data-aos="zoom-in" data-aos-delay="200">
+						<div class="tradition-icon">
+							<i class="fas fa-theater-masks"></i>
+						</div>
+						<h3>Activități Culturale</h3>
+						<p>Elevii participă la proiecte artistice și culturale, dezvoltându-și creativitatea și abilitățile de exprimare.</p>
+						<div class="tradition-pattern"></div>
+					</div>
+
+					<div class="tradition-card" data-aos="zoom-in" data-aos-delay="300">
+						<div class="tradition-icon">
+							<i class="fas fa-flag"></i>
+						</div>
+						<h3>Ziua Colegiului</h3>
+						<p>Sărbătorirea anuală a înființării colegiului, cu programe dedicate istoriei și tradițiilor instituției.</p>
+						<div class="tradition-pattern"></div>
+					</div>
+
+					<div class="tradition-card" data-aos="zoom-in" data-aos-delay="400">
+						<div class="tradition-icon">
+							<i class="fas fa-graduation-cap"></i>
+						</div>
+						<h3>Ceremonia de Absolvire</h3>
+						<p>Momentul emoționant în care absolvenții primesc diplomele și își iau rămas bun de la profesori și colegi.</p>
+						<div class="tradition-pattern"></div>
+					</div>
+
+					<div class="tradition-card" data-aos="zoom-in" data-aos-delay="500">
+						<div class="tradition-icon">
+							<i class="fas fa-trophy"></i>
+						</div>
+						<h3>Excelența Academică</h3>
+						<p>Tradiția performanței la examene și concursuri, cu o rată de promovabilitate la Bacalaureat de peste 97%.</p>
+						<div class="tradition-pattern"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="oferta" class="section section-gradient">
+			<div class="container">
+				<div class="section-header section-header-light">
+					<span class="section-tag">Specializări</span>
+					<h2 class="section-title">Oferta Educațională</h2>
+					<p class="section-subtitle">Profile și specializări pentru anul școlar 2025-2026</p>
+				</div>
+
+				<div class="offer-intro">
+					<p>Colegiul Național „Octav Onicescu" oferă elevilor o gamă diversificată de specializări, toate cu profil teoretic, pregătindu-i pentru continuarea studiilor în învățământul superior și pentru integrarea pe piața muncii.</p>
+				</div>
+
+				<div class="specializations-grid">
+					<div class="spec-card" data-aos="fade-up">
+						<div class="spec-header math-info">
+							<i class="fas fa-laptop-code"></i>
+							<h3>Matematică-Informatică</h3>
+							<span class="spec-badge">Intensiv Informatică</span>
+						</div>
+						<div class="spec-body">
+							<p>Specializare pentru elevii pasionați de programare și tehnologie, cu accent pe dezvoltarea competențelor digitale avansate.</p>
+							<div class="spec-details">
+								<span><i class="fas fa-users"></i> 1 clasă / nivel</span>
+								<span><i class="fas fa-chart-line"></i> Ultima medie de admitere din 2025: <b style="color: #ffffff">8.65</b></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="spec-card" data-aos="fade-up" data-aos-delay="100">
+						<div class="spec-header math-eng">
+							<i class="fas fa-globe"></i>
+							<h3>Matematică-Informatică</h3>
+							<span class="spec-badge">Intensiv Engleză</span>
+						</div>
+						<div class="spec-body">
+							<p>Combinație perfectă între competențe matematice și lingvistice, pregătind elevii pentru o carieră internațională.</p>
+							<div class="spec-details">
+								<span><i class="fas fa-users"></i> 1 clasă / nivel</span>
+								<span><i class="fas fa-chart-line"></i> Ultima medie de admitere din 2025: <b style="color: #ffffff">8.65</b></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="spec-card" data-aos="fade-up" data-aos-delay="200">
+						<div class="spec-header math-std">
+							<i class="fas fa-calculator"></i>
+							<h3>Matematică-Informatică</h3>
+							<span class="spec-badge">Standard</span>
+						</div>
+						<div class="spec-body">
+							<p>Profilul clasic pentru elevii cu înclinații către științele exacte, oferind o pregătire solidă în matematică și informatică.</p>
+							<div class="spec-details">
+								<span><i class="fas fa-users"></i> 2 clase / nivel</span>
+								<span><i class="fas fa-chart-line"></i> Ultima medie de admitere din 2025: <b style="color: #ffffff">8.65</b></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="spec-card" data-aos="fade-up" data-aos-delay="300">
+						<div class="spec-header filologie">
+							<i class="fas fa-book-open"></i>
+							<h3>Filologie</h3>
+							<span class="spec-badge">Științe Umaniste</span>
+						</div>
+						<div class="spec-body">
+							<p>Pentru iubitorii de literatură și limbi străine, cu accent pe dezvoltarea competențelor de comunicare și analiză literară.</p>
+							<div class="spec-details">
+								<span><i class="fas fa-users"></i> 2 clase / nivel</span>
+								<span><i class="fas fa-chart-line"></i> Ultima medie de admitere din 2025: <b style="color: #ffffff">8.57</b></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="spec-card" data-aos="fade-up" data-aos-delay="400">
+						<div class="spec-header social">
+							<i class="fas fa-users-cog"></i>
+							<h3>Științe Sociale</h3>
+							<span class="spec-badge">Socio-Uman</span>
+						</div>
+						<div class="spec-body">
+							<p>Specializare pentru viitorii sociologi, psihologi, juriști sau economiști, cu accent pe înțelegerea societății contemporane.</p>
+							<div class="spec-details">
+								<span><i class="fas fa-users"></i> 2 clase / nivel</span>
+								<span><i class="fas fa-chart-line"></i> Ultima medie de admitere din 2025: <b style="color: #ffffff">8.52</b></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="alternatives-section">
+					<h3 class="alt-title"><i class="fas fa-lightbulb"></i> Alternative Educaționale</h3>
+					<div class="alternatives-grid">
+						<div class="alt-item"><i class="fas fa-comments"></i> Club de Debate</div>
+						<div class="alt-item"><i class="fas fa-heart"></i> Voluntariat „Zâmbetul din Cutie"</div>
+						<div class="alt-item"><i class="fas fa-briefcase"></i> Junior Achievement România</div>
+						<div class="alt-item"><i class="fas fa-landmark"></i> EPAS - Școli-Ambasador PE</div>
+						<div class="alt-item"><i class="fas fa-globe"></i> Proiecte UNESCO</div>
+						<div class="alt-item"><i class="fas fa-plane"></i> Proiecte Erasmus+</div>
+						<div class="alt-item"><i class="fas fa-handshake"></i> Acțiune Comunitară SNAC</div>
+						<div class="alt-item"><i class="fas fa-graduation-cap"></i> Campania Globală pentru Educație</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="galerie" class="section section-dark">
+			<div class="container">
+				<div class="section-header section-header-light">
+					<span class="section-tag">Vizual</span>
+					<h2 class="section-title">Galerie Foto</h2>
+				</div>
+
+				<div class="gallery-filters">
+					<button class="filter-btn active" data-filter="all">Toate</button>
+					<button class="filter-btn" data-filter="colegiu">Colegiu</button>
+					<button class="filter-btn" data-filter="activitati">Activități</button>
+					<button class="filter-btn" data-filter="evenimente">Evenimente</button>
+				</div>
+
+				<div class="gallery-grid">
+					<div class="gallery-item gallery-item-wide" data-category="colegiu" data-aos="fade-up">
+						<img src="assets/cladire1.jpg" alt="Clădirea Colegiului" class="gallery-img" loading="lazy" decoding="async" />
+						<div class="gallery-overlay">
+							<h4>Clădirea Principală</h4>
+							<p>Vedere frontală</p>
+						</div>
+					</div>
+
+					<div class="gallery-item" data-category="colegiu" data-aos="fade-up" data-aos-delay="100">
+						<img src="assets/cladire2.jpg" alt="Intrarea în Colegiu" class="gallery-img" loading="lazy" decoding="async" />
+						<div class="gallery-overlay">
+							<h4>Peretele Viu</h4>
+							<p>Spațiu verde inovativ</p>
+						</div>
+					</div>
+
+					<div class="gallery-item" data-category="colegiu" data-aos="fade-up" data-aos-delay="200">
+						<img src="assets/sala_clasa.jpg" alt="Sala de Clasă" class="gallery-img" loading="lazy" decoding="async" />
+						<div class="gallery-overlay">
+							<h4>Sala de Clasă</h4>
+							<p>Spațiu modern pentru activități didactice</p>
+						</div>
+					</div>
+
+					<div class="gallery-item" data-category="colegiu" data-aos="fade-up" data-aos-delay="300">
+						<img src="assets/scoala_europeana.jpg" alt="Școală Europeană" class="gallery-img" loading="lazy" decoding="async" />
+						<div class="gallery-overlay">
+							<h4>Școală Europeană</h4>
+							<p>Certificare de excelență</p>
+						</div>
+					</div>
+
+					<div class="gallery-item gallery-item-tall" data-category="activitati" data-aos="fade-up" data-aos-delay="400">
+						<img src="assets/gusta_cu_atentie.jpg" alt="Proiect Educativ" class="gallery-img" loading="lazy" decoding="async" />
+						<div class="gallery-overlay">
+							<h4>Proiect Educativ</h4>
+							<p>„Gustă cu Atenție"</p>
+						</div>
+					</div>
+
+					<div class="gallery-item" data-category="activitati" data-aos="fade-up" data-aos-delay="500">
+						<img src="assets/poza1.jpg" alt="Activități extrașcolare" class="gallery-img" loading="lazy" decoding="async" />
+						<div class="gallery-overlay">
+							<h4>Activități extrașcolare</h4>
+							<p>Momente importante</p>
+						</div>
+					</div>
+
+					<div class="gallery-item" data-category="activitati" data-aos="fade-up" data-aos-delay="600">
+						<img src="assets/poza2.jpg" alt="Proiecte Educaționale" class="gallery-img" loading="lazy" decoding="async" />
+						<div class="gallery-overlay">
+							<h4>Proiecte Educaționale</h4>
+							<p>Învățare interactivă</p>
+						</div>
+					</div>
+
+					<div class="gallery-item" data-category="activitati" data-aos="fade-up" data-aos-delay="700">
+						<img src="assets/poza3.jpg" alt="Activități Speciale" class="gallery-img" loading="lazy" decoding="async" />
+						<div class="gallery-overlay">
+							<h4>Activități Speciale</h4>
+							<p>Comunitatea școlară</p>
+						</div>
+					</div>
+
+					<div class="gallery-item" data-category="activitati" data-aos="fade-up" data-aos-delay="800">
+						<img src="assets/poza4.jpg" alt="Excursie Școlară" class="gallery-img" loading="lazy" decoding="async" />
+						<div class="gallery-overlay">
+							<h4>Excursie Școlară</h4>
+							<p>Activitate extrașcolară cu elevii colegiului</p>
+						</div>
+					</div>
+
+					<div class="gallery-item" data-category="evenimente" data-aos="fade-up" data-aos-delay="900">
+						<img src="assets/absolvire_2025_1.jpeg" alt="Festivitatea de premiere 2025" class="gallery-img" loading="lazy" decoding="async" />
+						<div class="gallery-overlay">
+							<h4>Festivitatea de premiere 2025</h4>
+							<p>Momente emoționante alături de promoția 2025</p>
+						</div>
+					</div>
+
+					<div class="gallery-item gallery-item-wide" data-category="evenimente" data-aos="fade-up" data-aos-delay="1000">
+						<img src="assets/absolvire_2025_2.jpeg" alt="Festivitatea de premiere 2025 - promoția" class="gallery-img" loading="lazy" decoding="async" />
+						<div class="gallery-overlay">
+							<h4>Festivitatea de premiere 2025</h4>
+							<p>Ceremonia de încheiere a anului pentru absolvenți</p>
+						</div>
+					</div>
+
+					<div class="gallery-item" data-category="activitati" data-aos="fade-up" data-aos-delay="1200">
+						<img src="assets/poza5.jpeg" alt="Activitate extrașcolară" class="gallery-img" loading="lazy" decoding="async" />
+						<div class="gallery-overlay">
+							<h4>Activitate extrașcolară</h4>
+							<p>Momente din viața școlii</p>
+						</div>
+					</div>
+
+					<div class="gallery-item" data-category="activitati" data-aos="fade-up" data-aos-delay="1300">
+						<img src="assets/iubim_ue.jpg" alt="Proiect european" class="gallery-img" loading="lazy" decoding="async" />
+						<div class="gallery-overlay">
+							<h4>Proiect european</h4>
+							<p>Iubim UE</p>
+						</div>
+					</div>
+
+					<div class="gallery-item" data-category="evenimente" data-aos="fade-up" data-aos-delay="1400">
+						<img src="assets/vizita_cotroceni.jpg" alt="Vizită la Cotroceni" class="gallery-img" loading="lazy" decoding="async" />
+						<div class="gallery-overlay">
+							<h4>Vizită la Cotroceni</h4>
+							<p>Experiență educațională</p>
+						</div>
+					</div>
+
+					<div class="gallery-item" data-category="evenimente" data-aos="fade-up" data-aos-delay="1500">
+						<img src="assets/vizita_cotroceni%202.jpg" alt="Vizită la Cotroceni - grup" class="gallery-img" loading="lazy" decoding="async" />
+						<div class="gallery-overlay">
+							<h4>Vizită la Cotroceni</h4>
+							<p>Întâlnire oficială</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="section-header section-header-light gallery-subheader">
+					<h2 class="section-title">Videoclipuri</h2>
+				</div>
+				<div class="video-gallery">
+					<div class="video-card" data-aos="fade-up">
+						<video class="video-player" data-src="assets/video1.mp4" controls playsinline preload="metadata" data-preview-time="1"></video>
+					</div>
+					<div class="video-card" data-aos="fade-up" data-aos-delay="100">
+						<video class="video-player" data-src="assets/video2.mp4" controls playsinline preload="metadata" data-preview-time="1"></video>
+					</div>
+					<div class="video-card" data-aos="fade-up" data-aos-delay="200">
+						<video class="video-player" data-src="assets/video3.mp4" controls playsinline preload="metadata" data-preview-time="32"></video>
+					</div>
+					<div class="video-card" data-aos="fade-up" data-aos-delay="300">
+						<video class="video-player" data-src="assets/video4.mp4" controls playsinline preload="metadata" data-preview-time="1"></video>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="section section-light">
+			<div class="container">
+				<div class="section-header">
+					<span class="section-tag">Conectare</span>
+					<h2 class="section-title">Contact</h2>
+				</div>
+
+				<div class="contact-grid">
+					<div class="contact-info" data-aos="fade-right">
+						<div class="contact-card">
+							<div class="contact-icon">
+								<i class="fas fa-map-marker-alt"></i>
+							</div>
+							<div class="contact-details">
+								<h4>Adresă</h4>
+								<p>Strada Trivale Nr. 29, București Sector 4</p>
+							</div>
+						</div>
+
+						<div class="contact-card">
+							<div class="contact-icon">
+								<i class="fas fa-phone"></i>
+							</div>
+							<div class="contact-details">
+								<h4>Telefon</h4>
+								<p>021 460 3544</p>
+							</div>
+						</div>
+
+						<div class="contact-card">
+							<div class="contact-icon">
+								<i class="fas fa-globe"></i>
+							</div>
+							<div class="contact-details">
+								<h4>Website</h4>
+								<p>
+									<a href="https://onicescu.ro" target="_blank">onicescu.ro</a>
+								</p>
+							</div>
+						</div>
+
+						<div class="contact-card">
+							<div class="contact-icon">
+								<i class="fas fa-envelope"></i>
+							</div>
+							<div class="contact-details">
+								<h4>Email</h4>
+								<p>
+									<a href="mailto:colegiuloctavonicescu@s4.ismb.ro">colegiuloctavonicescu@s4.ismb.ro</a>
+								</p>
+							</div>
+						</div>
+
+						<div class="contact-card">
+							<div class="contact-icon">
+								<i class="fas fa-clock"></i>
+							</div>
+							<div class="contact-details">
+								<h4>Program</h4>
+								<p>Luni - Vineri: 08:00 - 18:00</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="contact-form-wrapper" data-aos="fade-left">
+						<form class="contact-form" id="contactForm">
+							<h3>Trimiteți un mesaj</h3>
+							<p class="form-note"><i class="fas fa-info-circle"></i> Acest formular este demonstrativ și face parte din proiectul educațional. Pentru contact real, utilizați datele din stânga.</p>
+							<div class="form-group">
+								<input type="text" id="name" name="name" autocomplete="name" required />
+								<label for="name">Nume</label>
+								<span class="form-line"></span>
+							</div>
+							<div class="form-group">
+								<input type="email" id="email" name="email" autocomplete="email" required />
+								<label for="email">Adresă de email</label>
+								<span class="form-line"></span>
+							</div>
+							<div class="form-group">
+								<textarea id="message" name="message" autocomplete="off" rows="4" required></textarea>
+								<label for="message">Mesaj</label>
+								<span class="form-line"></span>
+							</div>
+							<button type="submit" class="btn btn-primary btn-block">
+								<span>Trimiteți Mesajul</span>
+								<i class="fas fa-paper-plane"></i>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer-wave">
+				<svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+					<path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+				</svg>
+			</div>
+
+			<div class="container">
+				<div class="footer-content">
+					<div class="footer-brand">
+						<div class="footer-logo">
+							<img src="assets/stema150x150.png" alt="Stema" class="footer-logo-img" />
+							<span>„Octav Onicescu”</span>
+						</div>
+						<p>Colegiul Național „Octav Onicescu” formează viitorii lideri, păstrând vie flacăra tradițiilor și a excelenței academice din 1929.</p>
+						<div class="footer-social">
+							<a href="https://www.facebook.com/CNOctavOnicescu" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+							<a href="https://www.instagram.com/colegiul.octav.onicescu/" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+						</div>
+					</div>
+
+					<div class="footer-links">
+						<h4>Navigare</h4>
+						<ul>
+							<li><a href="#acasa">Acasă</a></li>
+							<li><a href="#despre">Despre Noi</a></li>
+							<li><a href="#personalitate">Personalitate</a></li>
+							<li><a href="#oferta">Ofertă Educațională</a></li>
+						</ul>
+					</div>
+
+					<div class="footer-links">
+						<h4>Proiect</h4>
+						<ul>
+							<li><a href="#traditii">Tradiții</a></li>
+							<li><a href="#galerie">Galerie</a></li>
+							<li><a href="#contact">Contact</a></li>
+							<li>
+								<a href="https://onicescu.ro" target="_blank">Site Oficial</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer-project">
+						<h4>Despre Proiect</h4>
+						<p>
+							<strong>Rădăcini Străbune în Contextul Multiculturalității</strong>
+						</p>
+						<p>Proiect educațional realizat de elevii Colegiului Național „Octav Onicescu" pentru concursul național de promovare a patrimoniului cultural.</p>
+						<div class="project-badge">
+							<i class="fas fa-award"></i>
+							<span>Proiect Educațional 2026</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="footer-bottom">
+					<p>&copy; 2026 „Octav Onicescu”. Toate drepturile rezervate.</p>
+				</div>
+			</div>
+		</footer>
+
+		<button class="back-to-top" id="backToTop" aria-label="Înapoi sus">
+			<i class="fas fa-arrow-up"></i>
+		</button>
+
+		<div class="video-modal" id="mediaModal" role="dialog" aria-hidden="true" aria-label="Galerie media">
+			<div class="modal-content">
+				<button class="modal-close" type="button" aria-label="Închide">
+					<i class="fas fa-times"></i>
+				</button>
+				<div class="modal-body"></div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
